@@ -3,7 +3,7 @@ import { Admin, Resource } from 'react-admin';
 import jsonServerProvider from 'ra-data-json-server';
 import { PostList } from './posts';
 
-const dataProvider = jsonServerProvider('http://jsonplaceholder.typicode.com');
+const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
 
 const App = () => (
     <Admin dataProvider={dataProvider}>
